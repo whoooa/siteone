@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f9036ff-9bd2-4653-9bb2-59b6699aad8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mainsys/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainsys/dbconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainsys/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainsys/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainsys/webconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainsys/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/css/bootstrap_.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/css/docs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/css/ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/css/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/css/prettyPhoto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/3docean-125x125-03-stock-3d-models.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/3docean-125x125-06-stock-3d-models.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/3docean-300x250-09-stock-3d-models.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ads/tf_225x104_v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/avatar01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/avatar02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/avatar03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/douyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/img04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/img06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/img01-40x40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/img02-40x40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/img03-40x40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/img04-40x40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/img05-40x40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/blog/widgets/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/HTML5_1Color_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/bg_direction_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/contacts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/hoverico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/icon-css3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/icon-html5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/inputico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/sf-arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/socialico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/srvico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/ico/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/li-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/contentPattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/dark_square/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/prettyPhoto/light_square/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img-vertical-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img-vertical-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img-vertical-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img-vertical-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img-vertical-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img-vertical-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img-vertical-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img-vertical-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/img15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/projects/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/img04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/img06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/carousel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/_a1e1d0bf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/_a1e1d0c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/_a1e1d839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/_a1e1d83c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/_a1e1e436.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/_a1e1e43b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/_a1e220d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/_a1e220d4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/slider-img-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/slider-img-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/slider-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/slider-img-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/flex/slider-img-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/img/sliders/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jcarousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jflickrfeed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jquery.fitvid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jquery.flexslider-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jquery.isotope.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jquery.preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jquery.prettyPhoto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jquery.tweet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/jquery.waitforimages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/respond.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ftpm/js/superfish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/css/orionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/css/style.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/css/style.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/css/style.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/css/style.pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/css/style.red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/css/style.sea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/css/style.violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/fonts/orion-font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/fonts/orion-font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/fonts/orion-font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/fonts/orion-font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/fonts/orion-font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/fonts/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/img/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/img/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/img/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/img/avatar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/img/avatar-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/img/avatar-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/img/illustration.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/img/template-mac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/js/charts-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/js/charts-home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/js/front.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/js/js.cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/chart.js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_bn_BD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_bn_BD.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_es_AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_es_AR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_es_PE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_es_PE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ge.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_hy_AM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_hy_AM.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_my.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_pt_BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_pt_PT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_si.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sr_lat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sr_lat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_tj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_tj.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_ur.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/messages_zh_TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_es_CL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery-validation/localization/methods_pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery.cookie/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/esm/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/esm/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/esm/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/esm/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xyadmin/vendor/popper.js/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/css/application-a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/css/client_default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/css/ma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/css/mb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/css/saas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/automation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/buildings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/campaign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/favicon-c8.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/favicon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/forms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/social_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/img/social_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/ajaxCookieSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/amazeui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/hotjar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/l.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/saas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/xysite/js/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/entdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/entindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/full-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/portfolio-description-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/rwdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/rwindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/zbdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/zbindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ftpm/zblist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xyadmin/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xyadmin/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xyadmin/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xyadmin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xyadmin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xyadmin/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xyadmin/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xysite/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xysite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xysite/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xysite/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/context_processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/locale/zh_CN/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/locale/zh_CN/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/conf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/conf/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/fonts/COPYRIGHT.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/fonts/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/fonts/Vera.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/jinja2/captcha/widgets/captcha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/zh_CN/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/zh_CN/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/management/commands/captcha_clean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/management/commands/captcha_create_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/templates/captcha/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/templates/captcha/hidden_field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/templates/captcha/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/templates/captcha/text_field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/templates/captcha/widgets/captcha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/tests/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/tests/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/tests/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/captcha/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/CCPREST/CCPRestSDK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/CCPREST/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/CCPREST/xmltojson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/base62.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/common_a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/common_b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/common_c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/cross_response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/des.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/sys_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/utils/xmltodict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/xyadmin/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyapps/xyadmin/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xymodels/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyviews/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyviews/xydata/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyviews/xydata/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyviews/xydata/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyviews/xydata/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainsys/urls.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainsys/dbconfig.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainsys/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-672" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mainsys/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/siterw.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="388" />
+    <option name="y" value="59" />
+    <option name="width" value="1933" />
+    <option name="height" value="1006" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="siterw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="siterw" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="0.10.26" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Web\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js.phonegap.settings.workdir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mainsys/settings.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:\Web\nodejs\node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pypro\siterw" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="siterw" type="Python.DjangoServer" factoryName="Django server">
+      <module name="siterw" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mainsys.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files (x86)\Python37-32\python3.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f9036ff-9bd2-4653-9bb2-59b6699aad8e" name="Default Changelist" comment="" />
+      <created>1574342570598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574342570598</updated>
+      <workItem from="1574342571797" duration="220000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="220000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/runscript.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainsys/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainsys/dbconfig.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainsys/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainsys/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

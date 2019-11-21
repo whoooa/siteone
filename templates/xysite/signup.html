@@ -1,0 +1,98 @@
+{% extends "xysite/base.html" %}
+{#{% load static %}#}
+
+{% block header %}{% endblock %}
+{% block footer %}{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{%  static "xysite/css/login.css" %}">
+{% endblock %}
+
+{% block wlmain %}
+    <div class="bm-wrap-bg">
+        <div class="login-box signup-box">
+            <h2>注册系统</h2>
+            <div class="clear"></div>
+
+            <form id="signup" method="post" class="am-form"
+                  {% if form.is_multipart %}enctype="multipart/form-data" {% endif %}>
+                <fieldset>
+                    <div class="login-form signup-form">
+                        <div class="am-form-group user-phone">
+                            <label for="phone"><i class="am-icon-phone"></i></label>
+                            <input type="text" class="am-form-field js-pattern-phone" name="phone" id="id_phone"
+                                   placeholder="请输入手机号" required data-validation-message="请输入正确的手机号">
+                        </div>
+
+                        <div class="am-form-group verification">
+                            <label for="code"><i class="am-icon-code"></i></label>
+                            <input type="text" class="am-form-field" name="code" id="id_code"
+                                   placeholder="手机验证码" minlength="3" maxlength="6"
+                                   data-validation-message="请确认短信中的验证码">
+                            <span class="btn" id="sendMobileCode">获 取</span>
+                        </div>
+
+                        <div class="am-form-group user-username">
+                            <label for="username"><i class="am-icon-user"></i></label>
+                            <input type="text" class="am-form-field js-pattern-username" name="username"
+                                   id="id_username" placeholder="用户名/昵称" required
+                                   data-validation-message="中文、字母、数字、@_-，2-16位">
+                        </div>
+
+                        <div class="am-form-group user-pass user-pass1">
+                            <label for="password1"><i class="am-icon-lock"></i></label>
+                            <input type="password" class="am-form-field js-pattern-password" name="password1"
+                                   id="password1" placeholder="设置密码" required
+                                   data-validation-message="请输入6-16位非空字符密码">
+                        </div>
+
+                        <div class="am-form-group user-pass user-pass2">
+                            <label for="passwordRepeat"><i class="am-icon-lock"></i></label>
+                            <input type="password" class="am-form-field" name="password2" id="passwordRepeat"
+                                   placeholder="确认密码" data-equal-to="#password1" required
+                                   data-validation-message="密码不一致，请确认">
+                        </div>
+
+                        <div class="am-cf">
+                            <input type="submit" id="submit" value="注 册"
+                                   class="am-btn am-btn-secondary am-btn-sm am-fl">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
+            <form method="post" class="am-form am-form-horizontal" id="random_code_form">
+                {% csrf_token %}
+                <div class="am-form-group random_code_verification">
+                    <label for="captcha_1"><i class="am-icon-code-fork"></i></label>
+                    <input type="text" name="captcha_1" id="id_captcha_1"
+                           class="am-form-field id_captcha_1" placeholder="图片验证码" maxlength="4" required="true"
+                           style="width: 61%;border: 1px solid #eee;"/>
+
+                    <div id='captcha'>{{ random_code.captcha }}</div>
+                </div>
+                <div style="display:none;">
+                    <input id="random_code_verify_btn" type="submit" value="进行验证"/>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="am-modal am-modal-alert" tabindex="-1" id="signup_sucess">
+        <div class="am-modal-dialog">
+            <div class="am-modal-bd" style="padding: 40px 0">
+                恭喜您注册成功，跳转登录页面中...
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer_js %}
+    <script src="{% static "xysite/js/ajaxCookieSet.js" %}"></script>
+    <script src="https://oss.elements.org.cn/opensource/others/particles2.js"></script>
+    <script src="{% static "xysite/js/login.js" %}"></script>
+    <script src="{% static "xysite/js/signup.js" %}"></script>
+{% endblock %}

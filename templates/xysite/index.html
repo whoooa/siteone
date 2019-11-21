@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>cbhub</title>
+    <meta name="description"
+          content="">
+    <meta name="keywords" content="mailblast, newsletters, amazon, ses, simple email service, email, marketing, blast emails, sendy">
+
+    <meta property="og:title" content="Mailblast">
+    <meta property="og:image"
+          content="/static/xysite/img/socil_log.png">
+    <meta property="og:description" content="Email Marketing on a budget using Amazon SES. Save money and time without sacrificing deliverability.">
+    <meta property="og:url" content="#">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@MailblastIO">
+    <meta name="twitter:creator" content="@MailblastIO">
+    <meta name="twitter:title" content="Mailblast">
+    <meta name="twitter:description" content="Email Marketing on a budget using Amazon SES. Save money and time without sacrificing deliverability.">
+    <meta name="twitter:image"
+          content="/static/xysite/img/socil_log.png">
+
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="/static/xysite/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="/static/xysite/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+          href="/static/xysite/img/favicon16.png">
+    <link rel="mask-icon"
+          href="/static/xysite/img/safari-pinned-tab.svg"
+          color="#32a7b8">
+    <link rel="shortcut icon"
+          href="/static/xysite/img/favicon-c8.ico">
+    <meta name="msapplication-TileColor" content="#32a7b8">
+    <meta name="theme-color" content="#32a7b8">
+
+
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="csrf-token" content="7T1Ex3r0h6AKUYxbT+qWNo3gtB3kdg0W3q9fx6A2TgZWQiw23Wa8ecctckJvj+3e47fbNhOUFGhytzCDp4KkGg==">
+
+
+    <link rel="stylesheet" media="all" href="/static/xysite/css/theme.css">
+
+    <link rel="stylesheet" media="all" href="/static/xysite/css/application-a.css">
+
+    <link rel="stylesheet" media="screen" href="/static/xysite/css/ma.css">
+    <link rel="stylesheet" media="screen" href="/static/xysite/css/mb.css">
+
+    <script async="" src="/static/xysite/js/analytics.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-86975455-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript">$crisp = [];
+    CRISP_WEBSITE_ID = "c127d752-0303-4d82-9be1-aac3c7cd7ce1";
+    (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.im/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+    })();</script>
+    <script src="/static/xysite/js/l.js" async=""></script>
+
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 382318, hjsv: 5};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <script async="" src="/static/xysite/js/hotjar.js"></script>
+
+    <script async="" src="/static/xysite/js/modules.js" charset="utf-8"></script>
+    <style type="text/css">iframe#_hjRemoteVarsFrame {
+        display: none !important;
+        width: 1px !important;
+        height: 1px !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }</style>
+    <link href="https://client.relay.crisp.chat/" rel="dns-prefetch" crossorigin="">
+    <link href="https://settings.crisp.chat/" rel="preconnect" crossorigin="">
+    <link href="https://client.crisp.chat/" rel="preconnect" crossorigin="">
+    <link href="https://image.crisp.chat/" rel="preconnect" crossorigin="">
+    <script src="/static/xysite/js/client.js" type="text/javascript" async=""></script>
+    <link href="/static/xysite/css/client_default.css" type="text/css" rel="stylesheet">
+</head>
+
+<body id="home_controller" class="index_action">
+<div class="wrapper">
+    <nav class="navbar navbar-expand-lg header-area">
+        <a class="navbar-brand" href="/">CBHub</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse"
+                aria-expanded="false" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="{% url 'login' %}">登录</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'signup' %}">注册</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">关于</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div id="home">
+        <div id="items">
+            <div class="cont-area">
+                <div class="container banner-area">
+                    <ul class="slides clearfix">
+                        <li>
+                            <h1>CBHub</h1>
+                            <h5>######<a href="#" title="Amazon SES" target="_blank"></a></h5>
+                            <br><br>
+                            <div>
+                                <a class="large-button" href="#">查看信息</a>
+                            </div>
+                            <br><br>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="banner-btm-img"><img
+                    src="/static/xysite/img/buildings.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="about-area text-center">
+        <div class="section-spacing about-top-area">
+            <div class="container">
+                <div class="top-float-img">
+                    <div class="image-container"><img
+                            src="/static/xysite/img/rocket.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slogan-area text-center">
+        <div class="section-spacing">
+            <div class="container">
+                <div style="margin-top: -7rem">
+                    <h1>专业的垂直服务</h1>
+                    <h5>优秀的核心创始团队
+                        10年产业咨询与销售科技领域服务经验
+                         <a href="#" title="Amazon SES"
+                                          target="_blank">科技领域服务</a></h5>
+                    <h5>为客户服务的专业高效保驾护航</h5>
+                </div>
+
+                <div class="divider_line"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="features-area text-center">
+        <div class="section-spacing">
+            <div class="container">
+                <h1 class="text-center mb-5">我们的优势</h1>
+            </div>
+
+            <div class="container feature-section">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <h4>强大的技术能力</h4>
+                        <h5 class="text-center">知名高等院校及科研院所顶级技术能力
+                            结合智能时代场景化需求
+                            构建“产、学、研” 三位一体的架构</h5>
+                    </div>
+                    <div class="col-lg-7">
+                        <img class="img-fluid"
+                             src="/static/xysite/img/list.png">
+                    </div>
+                </div>
+                <div class="divider_line"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="signup-area text-center">
+        <div class="section-spacing">
+            <div class="container feature-section">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <a class="btn btn-primary btn-lg " href="#">Start with Free Plan</a>
+                        <p class="text-muted">1,000 Subscribers. Unlimited Emails.</p>
+                        <p class="text-muted">Does not include Amazon SES fees, (2,000 free emails/day) 0.10$/1000 emails after.</p>
+                    </div>
+                    <div class="divider_line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="push"></div>
+</div>
+
+<div class="footer">
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5 style="color: #fff">链接</h5>
+                    <p><a href="#">Api Docs</a></p>
+                    <p><a href="#">Pricing</a></p>
+                </div>
+
+                <div class="col-sm-3">
+                    <h5 style="color: #fff">帮助</h5>
+                    <p><a href="#">contact@Raigor</a></p>
+                    <p><a href="#">Documentation</a></p>
+                </div>
+
+                <div class="col-sm-3">
+                    <h5 style="color: #fff">商务</h5>
+                    <p><a href="#">Terms of Service</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                </div>
+
+                <div class="col-sm-3">
+                    <h5 style="color: #fff">Social</h5>
+                    <a class="fa-stack" style="font-size: 1.5em" target="_blank" href="#">
+                        <i class="fas fa-square fa-stack-2x" style="color: #3b5998"></i>
+                        <i class="fab fa-facebook fa-stack-1x fa-inverse" style="font-size: 1.25em"></i>
+                    </a>
+                    <a class="fa-stack" style="font-size: 1.5em" target="_blank" href="#">
+                        <i class="fas fa-square fa-stack-2x" style="color: #55acee"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse" style="font-size: 1.25em"></i>
+                    </a></div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="/static/xysite/js/application.js"></script>
+<script type="text/javascript">
+    $(document).scroll(function () {
+        if ($(document).scrollTop() >= 1) {
+            $('.header-area').addClass('navbar-fixed-top');
+            $('.header-area .demo').addClass('btn btn-purple');
+            $('.header-area .demo').removeClass('nav-link');
+
+        } else {
+            $('.header-area').removeClass('navbar-fixed-top');
+            $('.header-area .demo').removeClass('btn btn-purple');
+            $('.header-area .demo').addClass('nav-link');
+        }
+    });
+</script>
+
+
+<iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame"
+        style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
+<div class="crisp-client">
+    <div class="crisp-1o7uamv">
+        <div class="crisp-1qz76wn">
+            <style type="text/css">.crisp-client .crisp-1rjpbb7 .crisp-12w1xmh,
+            .crisp-client .crisp-1rjpbb7 .crisp-poqhnx:hover {
+                color: #FFFFFF !important;
+                -webkit-text-fill-color: #FFFFFF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-1wiroug,
+            .crisp-client .crisp-1rjpbb7 .crisp-ao27ue:hover {
+                color: #005965 !important;
+                -webkit-text-fill-color: #005965 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-6mlwlm,
+            .crisp-client .crisp-1rjpbb7 .crisp-q5z06s:hover {
+                color: #008997 !important;
+                -webkit-text-fill-color: #008997 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-wcida4,
+            .crisp-client .crisp-1rjpbb7 .crisp-o6w0yc:hover {
+                color: #00A3B4 !important;
+                -webkit-text-fill-color: #00A3B4 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-pusm34 {
+                background-color: #FFFFFF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-bdhv0t {
+                background-color: #005965 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-9o0cq7 {
+                background-color: #00909E !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-ws3gf1,
+            .crisp-client .crisp-1rjpbb7 .crisp-13h0akn:before,
+            .crisp-client .crisp-1rjpbb7 .crisp-13h0akn:after {
+                background-color: #00A3B4 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-1gr5ak3 {
+                background-color: #F1F7F7 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-145mbcr,
+            .crisp-client .crisp-1rjpbb7 .crisp-1jrqqbm:hover {
+                background-color: #F9F9F9 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-17f70m7 {
+                background-image: linear-gradient(125deg, #00A3B4 -10%, #005965 100%) !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-111u58f,
+            .crisp-client .crisp-1rjpbb7 .crisp-y1nqlk:hover {
+                border-color: #FFFFFF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-14u434g {
+                border-color: rgba(0, 89, 101, 0.175) !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-k6ym6q,
+            .crisp-client .crisp-1rjpbb7 .crisp-1hadq69:hover,
+            .crisp-client .crisp-1rjpbb7 .crisp-1kqjjm4:before,
+            .crisp-client .crisp-1rjpbb7 .crisp-1kqjjm4:after {
+                border-color: #00A3B4 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-1n0zdj7 {
+                border-color: rgba(0, 163, 180, 0.15) !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-rdu43e {
+                border-top-color: #00A3B4 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-ogcg7k,
+            .crisp-client .crisp-1rjpbb7 .crisp-1mnx9b2:hover {
+                border-color: #F1F7F7 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-11uxe11:placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-11uxe11:-moz-placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-11uxe11::-moz-placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-11uxe11:-ms-input-placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-11uxe11::-webkit-input-placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-14ixsrp:placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-14ixsrp:-moz-placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-14ixsrp::-moz-placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-14ixsrp:-ms-input-placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-14ixsrp::-webkit-input-placeholder {
+                color: #4EA4AF !important;
+                -webkit-text-fill-color: #4EA4AF !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-gjhthi,
+            .crisp-client .crisp-1rjpbb7 .crisp-1t1dtpc:hover,
+            .crisp-client .crisp-1rjpbb7 .crisp-gjhthi:hover,
+            .crisp-client .crisp-1rjpbb7 .crisp-1t1dtpc:active,
+            .crisp-client .crisp-1rjpbb7 .crisp-gjhthi:active,
+            .crisp-client .crisp-1rjpbb7 .crisp-1v3kwn:hover .crisp-oc2kqi,
+            .crisp-client .crisp-1rjpbb7 .crisp-1v3kwn .crisp-oc2kqi:active {
+                background: #005965 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-1dgibgx,
+            .crisp-client .crisp-1rjpbb7 .crisp-1r2x6vr:hover {
+                background: #008997 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-1dgibgx:hover,
+            .crisp-client .crisp-1rjpbb7 .crisp-1r2x6vr:active {
+                background: #007685 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-1dgibgx:active {
+                background: #005965 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-27o9vm:hover .crisp-1ekhg1c {
+                background: #008997 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-27o9vm .crisp-1ekhg1c:active {
+                background: #007685 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-ox3dbf,
+            .crisp-client .crisp-1rjpbb7 .crisp-1fmeyoi[data-active="true"] {
+                background: #00A3B4 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-ox3dbf:hover {
+                background: #00909E !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-ox3dbf:active {
+                background: #008997 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-k5ll1j::-moz-selection,
+            .crisp-client .crisp-1rjpbb7 .crisp-k5ll1j *::-moz-selection {
+                background-color: #DBF7F9 !important;
+            }
+
+            .crisp-client .crisp-1rjpbb7 .crisp-k5ll1j::selection,
+            .crisp-client .crisp-1rjpbb7 .crisp-k5ll1j *::selection {
+                background-color: #DBF7F9 !important;
+            }</style>
+        </div>
+        <div class="crisp-1nasccw">
+            <style type="text/css">.crisp-client .crisp-1rjpbb7 {
+                z-index: 1000000;
+            }
+            </style>
+        </div>
+    </div>
+</div>
+</body>
+</html>

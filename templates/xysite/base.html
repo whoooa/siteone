@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html class="no-js" lang="zh-CN">
+{% block html_head %}
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="renderer" content="webkit|ie-stand|ie-comp">
+        <meta http-equiv="Cache-Control" content="no-siteapp"/>
+        <meta http-equiv="x-dns-prefetch-control" content="on"/>
+        <meta name="keywords" content="{% block meta_keywords %}{% endblock %}">
+        <meta name="description"
+              content="{% block meta_description %}{% endblock %}">
+        <title>
+            {% block meta_title %}首页{% endblock %}
+            {% block main_title %} | {% endblock %}
+        </title>
+        <link rel="shortcut icon" href="{% static "xysite/img/favicon.png" %}">
+
+        <link type="text/plain" href="/humans.txt" rel="author">
+        {% block main_css %}
+            <link rel="stylesheet" href="https://oss.elements.org.cn/opensource/amazeui-2.7.2/css/amazeui.min.css">
+        {% endblock %}
+        {% block extra_css %}
+            <link rel="stylesheet" href="{% static 'xysite/css/saas.css' %}">
+        {% endblock %}
+        {% block unique_css %}{% endblock %}
+
+        {% block main_js %}
+                <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+                <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+            <script src="https://oss.elements.org.cn/opensource/jquery-2.2.4.min.js"></script>
+            <script src="https://oss.elements.org.cn/opensource/amazeui-2.7.2/js/amazeui.min.js"></script>
+        {% endblock %}
+        {% block extra_js %}{% endblock %}
+        {% block extra_head %}{% endblock %}
+    </head>
+{% endblock %}
+
+<body>
+{% block wlmain %}
+{% endblock %}
+{% block footer_js %}
+    <script src="{% static "xysite/js/ajaxCookieSet.js" %}"></script>
+    <script src="{% static "xysite/js/saas.js" %}"></script>
+{% endblock %}
+</body>
+</html>

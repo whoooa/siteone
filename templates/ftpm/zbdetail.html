@@ -1,0 +1,132 @@
+{% extends "ftpm/base.html" %}
+{% load static %}
+{% block head_title %} 主播库{% endblock %}
+ {% block seo %}
+            <meta name="title" content="{{ zb.nick_name }}_{{ zb.second_lvl_name }}直播_斗鱼直播"/>
+            <meta name="keywords" content="{{ zb.nick_name }},{{ zb.nick_name }}直播,{{ zb.nick_name }}直播间,{{ zb.nick_name }}直播地址,{{ zb.second_lvl_name }}直播,{{ zb.nick_name }}{{ zb.second_lvl_name }}精彩视频"/>
+            <meta name="description" content="欢迎来到主播{{ zb.nick_name }}的斗鱼{{ zb.second_lvl_name }}直播间,本直播间提供最精彩的{{ zb.nick_name }}{{ zb.second_lvl_name }},{{ zb.nick_name }}带你领略最有趣的{{ zb.second_lvl_name }}视频直播。"/>
+        {% endblock %}
+{% block separator_content %}
+    <h2 style="text-align: center">{{ zb.nick_name }}</h2>
+{% endblock %}
+{% block main_content %}
+
+
+
+  <!-- Blog
+  ================================================== -->
+    <div class="row entry-blog">
+	  <div class="span9">
+	  
+    	<!-- START POST #1 -->
+	    <div class="row entry-post">
+  	      <div class="span3">
+	        <div class="entry-meta clearfix">
+	          <span><strong><i class="icon-user icon-white"></i> 主播:</strong> <a href="#">{{ zb.nick_name }}</a></span>
+	          <span><strong><i class="icon-list-alt icon-white"></i> 荣誉:</strong> <a href="#">{{ zb.od | default:"" }}</a></span>
+	          <span><strong><i class="icon-tags icon-white"></i> Tags:</strong></span>
+	          <ul class="tags clearfix">
+      	        <li><a href="#">{{ zb.cate_name }}</a></li>
+	            <li><a href="#">{{ zb.second_lvl_name }}</a></li>
+		      </ul>
+	        </div><!-- entry-meta -->
+	      </div><!-- span3 -->
+	  
+	      <!-- POST FORMAT - IMAGE -->
+	      <div class="span6">
+	        <div class="row">
+	          <div class="span6 format-image">
+	            <div class="view thumb-post">
+	              <img src="{% static "ftpm/img/blog/douyu.png" %}" alt="" />
+	              <div class="mask">
+			        <div class="mask-icon">
+			    	  <div class="quartercircletopleft-mask"><a href="#"></a></div>
+			    	  <div class="quartercircletopright-mask"><a href="#"></a></div>
+			    	  <div class="quartercirclebottomright-mask"><a href="#"></a></div>
+			    	  <div class="quartercirclebottomleft-mask"><a href="#"></a></div>
+			    	  <a href="{{ zb.rome_url }}" class="zoom-icon"></a>
+				    </div><!-- mask-icon -->
+				  </div><!-- mask -->
+	              <div class="post-date-meta">
+                	<span class="month">{% now "m" %}月</span>
+              		<span class="date">{% now "d"%}</span>
+            	  </div><!-- post-date-meta -->
+	        	</div><!-- thumb-post -->
+	        	<div class="entry-text" style="text-align: center">
+				  <h3>{{ zb.nick_name }}</h3>
+                    <p>欢迎来到主播{{ zb.nick_name }}的斗鱼{{ zb.second_lvl_name }}直播间。</p>
+                    <p>本直播间提供最精彩的{{ zb.nick_name }}{{ zb.second_lvl_name }}直播。</p>
+                    <p>{{ zb.nick_name }}带你领略最有趣的{{ zb.second_lvl_name }}视频直播。</p>
+				  <a href="{{ zb.rome_url }}"><div class="alert alert-info"> 点击观看他的直播.<strong>Go!</strong></div></a>
+	        	</div><!-- entry-text -->
+	          </div><!-- span6 -->
+	        </div><!-- row -->
+	      </div><!-- span6 -->
+	    </div><!-- row -->
+	    
+		<!-- ============================================================================================= -->
+
+
+	    <!-- DIVIDER -->
+      	<div class="row margin10-40">
+      	  <div class="span3"><div class="border-5-1"></div></div>
+      	  <div class="span6"><div class="border-5-1 hide-border"></div></div>
+    	</div><!-- row -->
+  	 	<!-- END COMMENTS -->
+
+
+      	<!-- Replay Form -->
+
+
+	  </div><!-- span9 -->
+
+
+  	  <!-- ============================================================================================= -->
+
+
+	  <!-- SIDEBAR -->
+      <div class="span3 sidebar">
+
+	    <!-- About -->
+        <div class="widget well">
+          <h5>关于他</h5>
+          <p class="last">{{ zb.od|default:"他还没有荣誉" }}.</p>
+		</div><!-- .widget -->
+
+		<!-- Categories -->
+        <div class="widget widget-list well">
+	      <h5>类别</h5>
+          <ul class="nav nav-list">
+          <li><a href="#"><i class="icon-list-alt icon-white"></i> 斗鱼</a></li>
+          <li><a href="#"><i class="icon-list-alt icon-white"></i> {{ zb.cate_name }}</a></li>
+          <li><a href="#"><i class="icon-list-alt icon-white"></i> {{ zb.second_lvl_name }}</a></li>
+        </ul>
+        </div><!-- widget -->
+
+
+	    
+
+		<!-- Facebook Recommendations -->
+<!--        <div class="widget well">
+		  <div class="fb-recommendations" data-site="http://themeforest.net/user/ZERGE/" data-app-id="297648427000173" data-height="300" data-header="true" data-colorscheme="dark" data-border-color="#5F636A" data-font="arial"></div>
+        </div> --> <!-- widget -->
+
+		<!-- Facebook Like -->
+<!--        <div class="widget well">
+		  <div class="fb-like-box" data-href="http://www.facebook.com/envato" data-colorscheme="dark" data-show-faces="true" data-border-color="#5F636A" data-stream="false" data-header="true"></div>
+        </div> --> <!-- widget -->
+        
+		<!-- Advertising -->
+        <div class="widget well">
+          <h5>###</h5>
+          <ul class="ads clearfix">
+            <li class="ads-std"><a href="http://themeforest.net?ref=zerge"><img src="img/ads/tf_225x104_v2.jpg" alt="" title="Ads" /></a></li>
+            <li class="ads-125"><a href="http://themeforest.net?ref=zerge" class="first"><img src="img/ads/3docean-125x125-03-stock-3d-models.jpg" alt="" title="Ads" /></a> <a href="http://themeforest.net?ref=zerge"><img src="img/ads/3docean-125x125-06-stock-3d-models.jpg" alt="" title="Ads" /></a></li>
+            <li class="ads-std"><a href="http://themeforest.net?ref=zerge"><img src="img/ads/3docean-300x250-09-stock-3d-models.jpg" alt="" title="Ads" /></a></li>                        
+  		  </ul>
+        </div><!-- widget -->
+      </div><!-- span3 -->
+	</div><!-- row -->
+
+
+{% endblock %}

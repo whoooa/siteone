@@ -1,0 +1,162 @@
+{% extends "ftpm/base.html" %}
+{% load static %}
+{% block head_title %}网络时代的人们{% endblock %}
+{% block seo %}
+    <meta name="title" content="网络时代的人"/>
+    <meta name="keywords" content="网络时代的人,知乎ID，知乎大V，知乎精选，知乎精品，知乎个人首页"/>
+    <meta name="description" content="欢迎来到知乎人物,本网站间提供知乎大V数据浏览。"/>
+{% endblock %}
+{% block separator_content %}
+    <form method="get" id="searchform" style="text-align:center" action="{% url "zbindex" %}"/>
+    <div class="input-prepend">
+        <span class="add-on"><i class="icon-search"></i></span><input class="search-box" id="search-box" type="text" name="key"
+                                                                      value="ID名称"
+                                                                      onFocus="if(this.value=='ID名称')this.value='';"
+                                                                      onBlur="if(this.value=='')this.value='ID名称';"/>
+        <button onclick="submit()">搜索</button>
+
+    </div>
+    </form>
+{% endblock %}
+{% block main_content %}
+    <!-- Blog
+  ================================================== -->
+    <div class="row entry-blog">
+        <div class="span9">
+            <!-- START POST #1 -->
+        {% for zh in zhs %}
+            <div class="row entry-post">
+                <div class="span3">
+                    <div class="entry-meta clearfix">
+                        <span><strong><i class="icon-user"></i> 用户:</strong> <a href="#">{{ zh.name }}</a></span>
+                        <span><strong><i class="icon-list-alt"></i> 行业:</strong> <a href="#">{{ zh.business }}</a></span>
+                        <span><strong><i class="icon-tags"></i> 类别:</strong></span>
+                        <ul class="tags clearfix">
+                            <li><a href="#">{% if zh.follower_count > 10000 %}知乎大V{% else%}知乎用户{% endif %}</a></li>
+                        </ul>
+
+                        <!-- <div class="entry-share">
+                          <span><strong><i class="icon-share"></i> Share:</strong></span>
+                        </div> --> <!-- entry-share -->
+                    </div><!-- entry-meta -->
+                </div><!-- span3 -->
+
+                <!-- POST FORMAT - IMAGE -->
+                <div class="span6">
+                    <div class="row">
+                        <div class="span6 format-image">
+                            <div class="entry-text">
+                                <h3><a href="{% url "rwdetail" %}?cid={{ zh.cid }}">{{ zh.name }}{{ zh.headline }}</a></h3>
+                                <span><li class="icon-time"></li>{{ zh.updated|date:"Y年m月d日" }}</span>
+                                <p>{{ zh.description }}</p>
+                                <a class="btn" href="{% url "rwdetail" %}?cid={{ zh.cid }}">查看详情</a>
+                            </div><!-- entry-text -->
+                        </div><!-- span6 -->
+                    </div><!-- row -->
+                </div><!-- span6 -->
+            </div><!-- row -->
+
+            <!-- DIVIDER -->
+            <div class="row margin40">
+                <div class="span3">
+                    <div class="border-5-1"></div>
+                </div>
+                <div class="span6">
+                    <div class="border-5-1 hide-border"></div>
+                </div>
+            </div><!-- row -->
+                {% endfor %}
+
+            <!-- END POST #1 -->
+
+
+            <!-- PAGINATION  -->
+            <!-- PAGINATION  -->
+            <div class="row margin40 pag">
+                <div class="span3"><p/></div>
+                <div class="span9">
+                    <div class="pagination">
+                        <ul>
+                            {% if zhs.has_previous %}
+                                <li><a href="?page={{ zhs.previous_page_number }}&key={{ request.GET.key }}"></a></li>
+                            {% else %}
+                                <li><a href="?page=1&key={{ request.GET.key }}"></a></li>
+                            {% endif %}
+                            {% if zhs.has_previous %}
+                                <li class="page-item"><a class="page-link"
+                                                         href="?page={{ zhs.previous_page_number }}&key={{ request.GET.key }}">{{ zhs.previous_page_number }}</a>
+                                </li>
+                            {% endif %}
+                            <li class="page-item active"><a class="page-link"
+                                                            href="?page={{ zhs.number }}&key={{ request.GET.key }}">{{ zhs.number }}</a>
+                            </li>
+                            {% if zhs.has_next %}
+                                <li class="page-item"><a class="page-link"
+                                                         href="?page={{ zhs.next_page_number }}&key={{ request.GET.key }}">{{ zhs.next_page_number }}</a>
+                                </li>
+                            {% endif %}
+                            {% if zhs.has_next %}
+                                <li><a href="?page={{ zhs.next_page_number }}&key={{ request.GET.key }}"></a></li>
+                            {% else %}
+                                <li><a href="?page={{ zhs.number }}&key={{ request.GET.key }}"></a></li>
+                            {% endif %}
+
+                        </ul>
+                    </div><!-- pagination -->
+                </div><!-- span6 -->
+            </div><!-- row -->
+        </div><!-- span9 -->
+
+
+        <!-- ============================================================================================= -->
+
+
+        <!-- SIDEBAR -->
+        <div class="span3 sidebar">
+
+            <!-- About -->
+            <div class="widget well">
+                <h5>人物百科</h5>
+                <p class="last">数据采集于互联网 <span class="label">公开数据</span> .</p>
+            </div><!-- .widget -->
+
+            <!-- Categories -->
+            <div class="widget widget-list well">
+                <h5>类别</h5>
+                <ul class="nav nav-list">
+                    <li><a href="#"><i class="icon-list-alt"></i> 人物</a></li>
+                    <li><a href="#"><i class="icon-list-alt"></i> 知乎</a></li>
+                </ul>
+            </div><!-- widget -->
+
+
+            <!-- Popular tags -->
+            <div class="widget well">
+                <h5>标签</h5>
+                <ul class="tags clearfix">
+                    <li><a href="#">人物</a></li>
+                    <li><a href="#">知乎</a></li>
+                </ul>
+                <small><a href="#">View all tags</a></small>
+            </div><!-- .widget -->
+
+
+
+
+            <!-- Advertising -->
+            <div class="widget well">
+                <h5>#####</h5>
+                <ul class="ads clearfix">
+                    <li class="ads-std"><a href="http://themeforest.net?ref=zerge"><img src="img/ads/tf_225x104_v2.jpg" alt="" title="Ads"/></a></li>
+                    <li class="ads-125"><a href="http://themeforest.net?ref=zerge" class="first"><img
+                            src="img/ads/3docean-125x125-03-stock-3d-models.jpg" alt="" title="Ads"/></a> <a
+                            href="http://themeforest.net?ref=zerge"><img src="img/ads/3docean-125x125-06-stock-3d-models.jpg" alt="" title="Ads"/></a>
+                    </li>
+                    <li class="ads-std"><a href="http://themeforest.net?ref=zerge"><img src="img/ads/3docean-300x250-09-stock-3d-models.jpg" alt=""
+                                                                                        title="Ads"/></a></li>
+                </ul>
+            </div><!-- widget -->
+        </div><!-- span3 -->
+    </div><!-- row -->
+
+{% endblock %}

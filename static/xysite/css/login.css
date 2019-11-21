@@ -1,0 +1,453 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*公共*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: arial, "Lantinghei SC", "Microsoft Yahei";
+}
+html, body {
+    height: 100%;
+    min-width: 900px;
+    min-height: 600px;
+    background: #fafafa;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.bm-wrap-bg {
+    position: absolute;
+    background-repeat: round;
+    height: 100%;
+    width: 100%;
+}
+hr {
+    margin: 5px 5px
+}
+.clear {
+    clear: both;
+}
+/*标题*/
+h3.title {
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+}
+.zcnext {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+/*主题*/
+.login-box h2 {
+    font-weight: bold;
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+}
+.login-form {
+    width: 100%;
+}
+.signup-form {
+    margin-bottom: 68px;
+}
+form {
+    max-width: 320px;
+    margin: 2.5rem auto 0 auto !important;
+}
+.user-name, .user-username, .user-pass, .user-email, .user-phone, .verification {
+    position: relative;
+    height: 44px;
+    margin-bottom: 12px;
+    border: 1px solid #eee;
+}
+form label {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    text-align: center;
+    top: 1px;
+    left: 1px
+}
+form input, #login input, #signup input, #random_code_form input {
+    font-size: 14px;
+    line-height: 18px;
+    height: 42px;
+    padding: 11px 8px 11px 50px;
+    width: 100%;
+    border: 1px solid #fff;
+    box-shadow: none;
+}
+input#submit {
+    padding-left: 8px;
+}
+input:-webkit-autofill, #login input:-webkit-autofill, #signup input:-webkit-autofill, #random_code_form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1200px #fff inset;
+}
+.am-cf {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.am-cf input {
+    width: 100%;
+    font-size: 14px;
+}
+.login-links {
+    max-width: 320px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+#remember-pass input {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin: 0 5px 0 1px;
+}
+.bm-submit-login-wrap {
+    margin: 0 !important;
+
+    box-shadow: 2px 4px 18px 0 #0E8DCE;
+}
+.bm-submit-login-wrap > input {
+    border: 0 solid #095f8a !important;
+}
+/*合作账号*/
+.partner {
+    width: 100%;
+    max-width: 320px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+.partner h3 {
+    text-align: center;
+}
+.am-btn-group {
+    display: block;
+    overflow: hidden;
+}
+.am-btn-group li {
+    /*width: 33.333%;*/
+    display: block;
+    float: left;
+    margin-left: 15px;
+}
+.am-btn-group i {
+    font-size: 25px;
+    margin: 0 auto;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    line-height: 42px;
+    padding-left: 10px;
+    border: 1px solid #eee;
+    background: #fff;
+    color: #0D8AC9;
+}
+.am-btn-group span {
+    display: none;
+}
+/*注册*/
+.verification {
+    position: relative;
+    width: 61%;
+}
+#sendMobileCode {
+    margin-left: 10px;
+    padding: 0 10px;
+    width: 120px;
+    height: 40px;
+    background: #f1f1f1 none repeat scroll 0 0;
+    margin-top: 0;
+    text-align: center;
+    line-height: 40px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: -125px;
+    bottom: 1px;
+    font-size: 13px;
+    cursor: pointer;
+}
+#sendMobileCode:hover {
+    color: #fff;
+    background: #0e90d2 none repeat scroll 0 0;
+}
+/*修改的样式*/
+#doc-my-tabs li.am-active a, #doc-my-tabs li a {
+    background: #f8f8f8;
+    border-radius: 0;
+    color: #999;
+    font-weight: 400;
+}
+#doc-my-tabs li.am-active a {
+    color: #222;
+    font-weight: 600;
+}
+.am-tabs-bd {
+    border: none;
+}
+.am-nav-tabs.am-nav-justify li {
+    padding: 5px;
+}
+.am-nav-tabs > li > a, .am-nav-tabs.am-nav-justify > li > a, .am-nav-tabs.am-nav-justify > .am-active > a, .am-nav-tabs > li.am-active > a, .am-nav-tabs > li.am-active > a:focus, .am-nav-tabs > li.am-active > a:hover {
+    border: none;
+    color: #000;
+    font-weight: 600;
+}
+.am-nav-tabs.am-nav-justify > .am-active > a, .am-nav-tabs.am-nav-justify > .am-active > a:focus, .am-nav-tabs.am-nav-justify > .am-active > a:hover, .am-nav-tabs > li.am-active > a, .am-nav-tabs > li.am-active > a:focus, .am-nav-tabs > li.am-active > a:hover {
+    margin-right: 0;
+    border-radius: 0;
+}
+/*底部*/
+.footer {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.footer-bd {
+    display: none;
+}
+form, .am-cf, .partner {
+    max-width: 640px;
+    margin: 20px auto;
+}
+.footer-bd {
+    display: block;
+}
+.partner h3 {
+    text-align: left;
+    padding: 5px 0;
+}
+.am-btn-group i {
+    display: inline-block;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+}
+.am-btn-group span {
+    display: inline-block;
+}
+.am-cf input {
+    width: 100%;
+    font-size: 16px;
+}
+/*底部*/
+.footer {
+    text-align: left;
+    display: block;
+    position: relative;
+    margin: 20px auto 0 auto;
+    padding: 7px 0 9px;
+    max-width: 1200px;
+}
+.footer .footer-bd p, .footer .footer-hd p {
+    margin-bottom: 8px;
+    line-height: 27px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.footer .footer-hd a {
+    margin: 0 4px;
+    white-space: nowrap;
+    color: #6C6C6C;
+}
+.footer .footer-hd b {
+    margin: 0 3px;
+    font-weight: 400;
+    color: #DDD;
+}
+.footer .footer-bd p {
+    border-bottom: none;
+}
+.login-box, .login-box2 {
+    width: 510px;
+    height: 544px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -260px;
+    padding: 90px 80px;
+}
+.login-box2 {
+    height: 470px;
+}
+.res-box {
+    height: 530px;
+}
+.login-boxtitle {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 75px;
+}
+.login-boxtitle img {
+    height: 52px;
+    width: 140px;
+    margin-top: 12px;
+}
+.login-banner, .res-banner {
+    width: 100%;
+    height: 500px;
+    background: #f5f5f5;
+}
+.login-main, .res-main {
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.res-banner, .res-main {
+    height: 580px;
+}
+/*头部*/
+.login-boxtitle {
+    display: block;
+}
+.zcnext {
+    right: 80px;
+    top: 70px;
+}
+/*背景*/
+.login-banner, .res-banner {
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+.am-btn-primary {
+    width: 100%;
+}
+/*修改的样式*/
+#doc-my-tabs li.am-active a, #doc-my-tabs li a {
+    background: #f8f8f8;
+}
+.am-nav-tabs > li > a, .am-nav-tabs.am-nav-justify > li > a, .am-nav-tabs.am-nav-justify > .am-active > a, .am-nav-tabs > li.am-active > a, .am-nav-tabs > li.am-active > a:focus, .am-nav-tabs > li.am-active > a:hover {
+    border: none;
+}
+.am-btn-warning {
+    background-color: #0e90d2;
+}
+.login_errors {
+    padding: 20px 0 0 0;
+}
+.login_errors ul li {
+    list-style: none;
+    text-align: center;
+    color: #0e90d2;
+}
+.login-url {
+    text-align: right;
+}
+.login-url a {
+    color: #999;
+    font-size: 13px;
+}
+.login-url a:hover {
+    color: #0e90d2;
+}
+/*-----------*/
+/*表单验证弹出来的提示*/
+/*----------------*/
+#vld-tooltip {
+    position: absolute;
+    z-index: 1000;
+    padding: 5px 8px;
+    background: #0e90d2;
+    font-size: 12px;
+    min-width: 120px;
+    color: #fff;
+    transition: all 0.15s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+    display: none;
+}
+#vld-tooltip:before {
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -6px;
+    content: "";
+    border-width: 0 6px 6px;
+    border-color: transparent transparent #0e90d2;
+    border-style: none inset solid;
+}
+#id_captcha_1 {
+    font-size: 15px;
+    display: none;
+}
+#id_captcha_1.id_captcha_1 {
+    display: inline-block;
+}
+.am-modal-hd, .am-modal-btn {
+    font-size: 15px;
+}
+#captcha {
+    float: right;
+    padding-top: 2px;
+}
+#captcha .captcha {
+    width: auto;
+    height: 36px;
+    max-width: 116px;
+}
+/*验证码的表单*/
+#random_code_form {
+    position: relative;
+    margin-top: -390px !important;
+}
+.am-form-group.user-phone {
+    margin-bottom: 54px;
+}
+.random_code_verification {
+    margin-bottom: 0;
+}
+#id_captcha_1[disabled] {
+    background-color: #fff;
+}
+#particles {
+    height: 99%;
+}
+.signup-box {
+    margin-top: -350px;
+}
+.signup-partner {
+    margin-top: 374px;
+}
+.xuanchuan {
+    color: #f75534;
+    margin: 0 0 0 12px;
+    float: left;
+}
+.partner img {
+    width: auto;
+    height: 35px;
+    margin: 5px 1px;
+}
+.jdlogo {
+    margin-left: -5px;
+}

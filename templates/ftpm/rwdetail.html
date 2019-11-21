@@ -1,0 +1,125 @@
+{% extends "ftpm/base.html" %}
+{% load static %}
+{% block head_title %} 人物详情{% endblock %}
+ {% block seo %}
+            <meta name="title" content="{{ zh.nick_name }}_{{ zh.second_lvl_name }}知乎 zhihu "/>
+            <meta name="keywords" content="{{ zh.name }}知乎,{{ zh.name }}个人回答,{{ zh.name }}文章,{{ zh.nick_name }}行业,{{ zh.nick_name }}{{ zh.nick_name }}问答详情"/>
+            <meta name="description" content="欢迎来到{{ zh.name }}的知乎首页,本首页提供最精彩的问答。"/>
+        {% endblock %}
+{% block separator_content %}
+    <h2 style="text-align: center">{{ zh.name }}的人物详情</h2>
+{% endblock %}
+{% block main_content %}
+
+
+
+  <!-- Blog
+  ================================================== -->
+    <div class="row entry-blog">
+	  <div class="span9">
+	  
+    	<!-- START POST #1 -->
+	    <div class="row entry-post">
+  	      <div class="span3">
+	        <div class="entry-meta clearfix">
+	          <span><strong><i class="icon-user icon-white"></i> 人物:</strong> <a href="#">{{ zh.name }}</a></span>
+	          <span><strong><i class="icon-list-alt icon-white"></i> 学校:</strong> <a href="#">{{ zh.educations }}</a></span>
+	          <span><strong><i class="icon-tags icon-white"></i> 位于:</strong>{{ zh.locations }}</span>
+                <span><strong><i class="icon-tags icon-white"></i> 头衔:</strong>{{ zh.headline }}</span>
+                <span><strong><i class="icon-tags icon-white"></i> 从事的行业:</strong></span>
+
+	          <ul class="tags clearfix">
+      	        <li><a href="#">{{ zh.business }}</a></li>
+		      </ul>
+
+	        </div><!-- entry-meta -->
+	      </div><!-- span3 -->
+	  
+	      <!-- POST FORMAT - IMAGE -->
+	      <div class="span6">
+	        <div class="row">
+	          <div class="span6 format-image">
+{#	            <div class="view thumb-post">#}
+{#	              <img src="{% static "ftpm/img/blog/img01.jpg" %}" alt="" />#}
+{#	              <div class="mask">#}
+{#			        <div class="mask-icon">#}
+{#			    	  <div class="quartercircletopleft-mask"><a href="#"></a></div>#}
+{#			    	  <div class="quartercircletopright-mask"><a href="#"></a></div>#}
+{#			    	  <div class="quartercirclebottomright-mask"><a href="#"></a></div>#}
+{#			    	  <div class="quartercirclebottomleft-mask"><a href="#"></a></div>#}
+{#			    	  <a href="https://www.zhihu.com/people/{{ zh.url_token }}/activities" class="zoom-icon"></a>#}
+{#				    </div><!-- mask-icon -->#}
+{#				  </div><!-- mask -->#}
+{#	              <div class="post-date-meta">#}
+{#                	<span class="month">{{ zh.updated |date:"m" }}月</span>#}
+{#              		<span class="date">{{ zh.updated |date:"d" }}</span>#}
+{#            	  </div><!-- post-date-meta -->#}
+{#	        	</div><!-- thumb-post -->#}
+	        	<div class="entry-text">
+				  <h2>{{ zh.nick_name }}</h2>
+                    <p>{% if zh.follower_count > 10000 %}知乎大V{% else %}知乎作家{% endif %}<p>
+                <p>位于{{ zh.locathons| default:"某地区" }}, 曾经就读于{{ zh.educations | default:"某大学"}}</p>
+                <p>从事于{{ zh.business| default:"某行业" }}行业</p>
+                    <p>在知乎关注了{{ zh.following_count }}人，发表过{{ zh.articles_count }}篇文章，在知乎回答过{{ zh.answer_count }}篇回答，</p>
+                    <p>收获了{{ zh.follower_count }}粉丝，{{ zh.voteup_count }}赞，并得到了{{ zh.favorited_count }}收藏！</p>
+                    <p>{{ zh.description }}</p>
+
+				  <div class="alert alert-info"> <a href="https://www.zhihu.com/people/{{ zh.url_token }}/activities">去知乎观看他的精彩文章.<strong>Go!</strong></a></div>
+	        	</div><!-- entry-text -->
+	          </div><!-- span6 -->
+	        </div><!-- row -->
+	      </div><!-- span6 -->
+	    </div><!-- row -->
+	    
+		<!-- ============================================================================================= -->
+
+
+	    <!-- DIVIDER -->
+      	<div class="row margin10-40">
+      	  <div class="span3"><div class="border-5-1"></div></div>
+      	  <div class="span6"><div class="border-5-1 hide-border"></div></div>
+    	</div><!-- row -->
+  	 	<!-- END COMMENTS -->
+
+
+      	<!-- Replay Form -->
+
+
+	  </div><!-- span9 -->
+
+
+  	  <!-- ============================================================================================= -->
+
+
+	  <!-- SIDEBAR -->
+      <div class="span3 sidebar">
+
+	    <!-- About -->
+        <div class="widget well">
+          <h5>更新于{{ zh.updated|date:"Y年m月d日" }}</h5>
+            <p class="last">赞：{{ zh.voteup_count }}</p>
+            <p class="last">粉丝：{{ zh.follower_count }}</p>
+		</div><!-- .widget -->
+
+		<!-- Categories -->
+        <div class="widget widget-list well">
+	      <h5>分类</h5>
+          <ul class="nav nav-list">
+          <li><a href="#"><i class="icon-list-alt icon-white"></i> 知乎</a></li>
+        </ul>
+        </div><!-- widget -->
+
+		<!-- Advertising -->
+        <div class="widget well">
+          <h5>###</h5>
+          <ul class="ads clearfix">
+            <li class="ads-std"><a href="http://themeforest.net?ref=zerge"><img src="img/ads/tf_225x104_v2.jpg" alt="" title="Ads" /></a></li>
+            <li class="ads-125"><a href="http://themeforest.net?ref=zerge" class="first"><img src="img/ads/3docean-125x125-03-stock-3d-models.jpg" alt="" title="Ads" /></a> <a href="http://themeforest.net?ref=zerge"><img src="img/ads/3docean-125x125-06-stock-3d-models.jpg" alt="" title="Ads" /></a></li>
+            <li class="ads-std"><a href="http://themeforest.net?ref=zerge"><img src="img/ads/3docean-300x250-09-stock-3d-models.jpg" alt="" title="Ads" /></a></li>                        
+  		  </ul>
+        </div><!-- widget -->
+      </div><!-- span3 -->
+	</div><!-- row -->
+
+
+{% endblock %}
