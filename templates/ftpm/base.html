@@ -44,6 +44,15 @@
         <link rel="apple-touch-icon-precomposed" href="{% static "ftpm/img/ico/apple-touch-icon-57-precomposed.png" %}"/>
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script>
+            var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?b3f6e952ce14b299b14c5266c2e01a2c";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
     </head>
 
     <body>
@@ -87,15 +96,16 @@
                 <div class="span9 navigation">
                     <div id="menu" class="fix-fish-menu clearfix">
                         <ul id="nav" class="sf-menu">
-{#                            <li {% if request.path == "/" %}class="active"{% endif %}><a href="{% url "home" %}">主页</a>#}
+                            {#                            <li {% if request.path == "/" %}class="active"{% endif %}><a href="{% url "home" %}">主页</a>#}
                             </li>
 
-                            <li {% if "rw" in request.path or request.path == "/" %}class="active"{% endif %}><a href="{% url "rwindex" %}">人物资料</a></li>
+                            <li {% if "rw" in request.path or request.path == "/" %}class="active"{% endif %}><a href="{% url "rwindex" %}">人物资料</a>
+                            </li>
 
                             <li{% if "zb" in request.path %} class="active"{% endif %}><a href="{% url "zbindex" %}">主播资料</a>
                             </li>
-{#                            <li {% if "ent" in  request.path  %}class="active"{% endif %}><a href="#">企业资料</a></li>#}
-{#                             <li {% if "blog" in request.path %}class="active"{% endif %}><a href="#">站长博客</a>#}
+                            {#                            <li {% if "ent" in  request.path  %}class="active"{% endif %}><a href="#">企业资料</a></li>#}
+                            {#                             <li {% if "blog" in request.path %}class="active"{% endif %}><a href="#">站长博客</a>#}
                             </li>
                             <li {% if "about" in request.path %}class="active"{% endif %}><a href="#">关于本站</a></li>
                         </ul><!-- end #nav  -->
