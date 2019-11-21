@@ -1,0 +1,24 @@
+syntax: glob
+*.pyc
+*.pyo
+*.db
+*.py~
+*.bak
+*.log
+.DS_Store
+.coverage
+.project
+.gitconfig
+.config
+.pydevproject
+/.idea/
+/.ssh/
+/log/
+/.config/
+!*.sh
+/mainsys/config.py
+/mainsys/dbconfig.py
+/mainsys/webconfig.py
+.thumbnails
+debug.txt
+/mainsys/cache/
